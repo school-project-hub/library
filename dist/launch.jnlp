@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="$$codebase" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>library system v2</title>
+        <vendor>lenovo</vendor>
+        <homepage href=""/>
+        <description>library system v2</description>
+        <description kind="short">library system v2</description>
+    <offline-allowed/>
+</information>
+    <update check="background"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="library_system_v2.jar" main="true"/>
+    <jar href="lib/mysql-connector-java-5.1.23-bin.jar"/>
+<jar href="lib/mysql-connector-java-5.1.48.jar"/>
+<jar href="lib/AbsoluteLayout.jar"/>
+<jar href="lib/rs2xml.jar"/>
+<jar href="lib/jcalendar-1.4.jar"/>
+<jar href="lib/jcalendar-1.4.jar"/>
+</resources>
+    <application-desc main-class="v2.loginpage">
+    </application-desc>
+</jnlp>
